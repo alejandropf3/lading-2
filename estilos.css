@@ -59,6 +59,10 @@ nav::after{
     color: white;
 }
 
+.links:focus{
+    color: goldenrod;
+}
+
 /*En este caso modificamos la barra lateral (iconos)*/
 .lateral{
     background-color: var(--Color_lateral);
@@ -174,6 +178,7 @@ nav::after{
     background-color: white;
 }
 
+
 /*En este caso hego el estilizado del formulario*/
 .formulario{
     background-color: var(--fondo_contenedor);
@@ -254,4 +259,10 @@ button{
     width: 150px;
     cursor: pointer;
     border: 2px solid var(--iconos);
+}
+
+button:focus{
+    background-color: gold;
+    color: white;
+    border-color: white;
 }
